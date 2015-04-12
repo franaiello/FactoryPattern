@@ -23,10 +23,4 @@ public class CardGame {
             this.game = game;
         }
     }
-
-    public static void main(String[] args) {
-        ICardGame poker = CardGame.createCardGame(GameType.Poker);
-        ICardGame blackJack = CardGame.createCardGame(GameType.BlackJack);
-
-    }
 }
